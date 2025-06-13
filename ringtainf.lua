@@ -1,4 +1,4 @@
-local infiniteSprinklerEnabled = false
+local infiniteSprinklerEnabled = true
 
 local function sprinklerAction()
     local char = LocalPlayer.Character
@@ -21,10 +21,6 @@ local function sprinklerAction()
             end
         end
     end
-end
-
-function SetSprinklerEnabled(state)
-    infiniteSprinklerEnabled = state
 end
 
 spawn(function()
